@@ -1,0 +1,11 @@
+# By default, ignore all top-level files/directories:
+/*
+
+# Track these directories:
+!/.github/
+!/docs/
+
+# Track these files:
+!/.gitignore
+!/mkdocs.yml
+!/requirements.txt
