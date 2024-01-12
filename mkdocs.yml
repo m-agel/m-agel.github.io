@@ -1,4 +1,8 @@
 site_name: m-agel
 
+plugins:
+  # https://squidfunk.github.io/mkdocs-material/plugins/privacy/
+  - privacy
+
 theme:
   name: material
