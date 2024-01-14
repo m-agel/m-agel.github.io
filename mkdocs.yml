@@ -6,3 +6,17 @@ plugins:
 
 theme:
   name: material
+  palette:
+    # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#color-palette-toggle
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
